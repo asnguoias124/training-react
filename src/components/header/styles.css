@@ -1,0 +1,54 @@
+.header-container {
+    display: flex;
+    background-color: #212529;
+
+    height: 40px;
+    padding: 20px;
+
+}
+
+.brand {
+    cursor: pointer;
+    margin: auto 10px;
+    color: #ffff;
+
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.icon-container{
+    cursor: pointer;
+    position: relative;
+    margin: auto 0px auto auto;
+}
+
+.number-cart{
+    position: absolute;
+    color: rgb(255, 30, 0);
+    top: 10%;
+    left: 42%;
+
+    font-size: 16;
+    font-weight: bold;
+}
+
+.icon-cart{
+    color: white;
+    height: 35px;
+    width: 35px;
+}
+
+.menu-container{
+    width: 50%;
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-container span{
+    cursor: pointer;
+    color: white;
+}

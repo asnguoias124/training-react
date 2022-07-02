@@ -1,0 +1,32 @@
+.product-container {
+    margin: 10px;
+    width: 200px;
+    height: fit-content;
+
+    background-color: white;
+
+    border-radius: 12px;
+    border: solid 2px;
+
+    cursor: pointer;
+}
+
+.product-img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.product-name{
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+.product-price{
+    font-size: 1.5em;
+    font-weight: bold;
+}
